@@ -1,4 +1,11 @@
 # CSS-to-the-resque
+Voor dit project ga ik een interactieve site maken die er visueel mooi uit ziet en dit doe ik met alleen HTML en CSS. Hier leg ik mijn onderzoeken en experimenten vast.
+
+## opdracht
+modular control panel: Ik ga form elementen gebruiken om daarmee de stijl van andere elementen in de html aan te passen.
+
+
+## plan van aanpak
 
 Mijn plan is om verschillende kamers te maken van een huis waar je doorheen kunt klikken en waar je dingen aan en uit kan zetten, bijvoorbeeld een kraan aanzetten als je op de kraan klikt of het licht aan en uit zetten.
 Ik wil beginnen met een kamer, ik denk een badkamer, omdat daar niet mega veel dingen in staan weet ik vrij zeker dat ik dat af krijg. Daarna kan ik altijd extra kamers maken.
