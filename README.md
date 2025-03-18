@@ -46,3 +46,13 @@ Aan de hand daarvan heb ik drie vlakken gemaakt om een vloer en twee muren te ma
 Vervolgens heb ik chatGPT gevraagd of het mogelijk is in pure css met scroll animations de rotate te veranderen, hiervoor heb ik het main element (de parent) 200vw en 200vh gegeven. Toen ik de code van chatGPT wilde uitproberen op alleen het rotaten van de x-as werkte de y-as ook en toen kwam ik erachter dat het veranderen van perspectief vanzelf gebeurd wanneer je door de parent scrollt. Het probleem is dat het draaien nu de andere kant op is van wat ik wil.
 
 Daarna wilde ik een blok maken, ik begon met de andere drie kanten van de achtergrond, maar Sanne vertelde me dat ik beter een cuboid kon maken, toen heb ik daar research naar gedaan en uiteindelijk heb ik op dat concept mijn eigen variatie gemaakt.
+
+## week 3
+Ik was deze week op maandag ziek, dus hier heb ik niet super veel kunnen doen. Op dinsdag heb ik de wasbak geprobeerd om diepte te geven, dat wilde ik eerst doen met een background image met een angle die veranderd zodat het de ilusie geeft dat hij hol is. Ik kwam er al snel achter dat het makkelijker is om voor elke zijde van de wasbak een cuboid te gebruiken.
+Nadat ik dat gedaan had heb ik nog een kraan toegevoegd aan de wasbak.
+
+### BONUS weekend
+Omdat ik maandag ziek was en bang was dat ik niet genoeg zou hebben voor de deadline ben ik in het weekend nog even aan de gang gegaan aan voorbereiding voor de week erop.
+
+## week 4
+Dit is alweer de laatste week van het project, op maandag kwam Sanne met een idee om de kleur van het water in de wasbak aan te passen aan de hand van hoe lang het warme en koude water aan heeft gestaan. Hij heeft hier een voorbeeld voor uitgewerkt [https://codepen.io/shooft/pen/WbNMRZb?editors=0100] en dat was erg handig, alleen het voorbeeld werkt als je één kleur tegelijkertijd wilt aanpassen en ik heb er twee nodig.
