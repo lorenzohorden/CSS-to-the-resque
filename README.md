@@ -52,7 +52,27 @@ Ik was deze week op maandag ziek, dus hier heb ik niet super veel kunnen doen. O
 Nadat ik dat gedaan had heb ik nog een kraan toegevoegd aan de wasbak.
 
 ### BONUS weekend
-Omdat ik maandag ziek was en bang was dat ik niet genoeg zou hebben voor de deadline ben ik in het weekend nog even aan de gang gegaan aan voorbereiding voor de week erop.
+Omdat ik maandag ziek was en bang was dat ik niet genoeg zou hebben voor de deadline ben ik in het weekend nog even aan de gang gegaan aan voorbereiding voor de week erop. Ik heb twee handvaten toegevoegd, een voor warm water en een voor koud water met beide een kleur om aan te geven welke welke is. Ik heb ook de waterstraal en het water in de bak geanimeerd door de variabelen van de hoogte aan te passen.
 
 ## week 4
 Dit is alweer de laatste week van het project, op maandag kwam Sanne met een idee om de kleur van het water in de wasbak aan te passen aan de hand van hoe lang het warme en koude water aan heeft gestaan. Hij heeft hier een voorbeeld voor uitgewerkt [https://codepen.io/shooft/pen/WbNMRZb?editors=0100] en dat was erg handig, alleen het voorbeeld werkt als je één kleur tegelijkertijd wilt aanpassen en ik heb er twee nodig.
+Op maandag tijdens de uitleg heb ik geleerd dat het niet slim is om height en width te animeren, ik kan beter `transform: scaleY(1)` gebruiken voor performance. Echter werkt dat niet in mijn concept, omdat het section element (de cuboid) geen hoogte heeft. Ik zag daar het nut niet van in maar dat had ik achteraf beter kunnen doen, want dan had ik nu een stuk betere performance gehad op de site.
+
+### titel
+Ik ben dinsdag begonnen aan een titel voor de site. Mijn eerste idee was een doorzichtige achtergrond en als de kraan aan staat dat de tekst opvult met vloeistof, net zoals de wasbak. Echter werd ik belemmerd door de text stroke die over de background-image heen ging. Ik vroeg aan Sanne of hij daar een oplossing voor had en hij vertelde me over `paint-order`. Dit werkt als de tekst een color heeft, maar een achtergrond staat altijd achter de stroke, dit kun je niet veranderen. Dus heb ik uiteindelijk gekozen om het overgang gedeelte weg te laten en alleen de kleur aan te passen aan de hand van welke kraan open staat.
+
+Ik heb een custom font gekozen dat Roboto Flex heet, dit is een soort uitbreiding op het standaard Roboto lettertype. Ik heb een kleine animatie gemaakt waar ik alle i's laat stuiteren, met de `YTLC` variabele. Ook gaan alle hoge letters omhoog als je over de titel hovert met de `YTAS` variabele.
+
+## conclusie
+Ik ben over mijn eindresultaat niet tevreden, ik had van tevoren gehoopt dat ik een stuk meer zou kunnen doen dan alleen een wasbak. Hoewel dat een flinke tegenvaller is, heb ik wel een hoop handige dingen geleerd waarvan ik een hoop wil gaan meenemen voor andere projecten:
+1. 3D in CSS
+2. Cuboids
+3. CSS nesting
+4. style query's
+5. :has()
+6. variabele fonts
+7. CSS variabelen gebruiken voor animaties met gebruik van @property
+
+Dit zijn behalve 3D dingen die CSS heel krachtig maken en normaal zou ik waarschijnlijk JavaScript gebruikt hebben om diezelfde functionaliteit te gebruiken, maar zoals ik bij Browser Tech geleerd heb is dat niet de ultieme oplossing, omdat niet iedereen JavaScript ondersteund. Ik denk dat ondanks ik mijn resultaat niet gehaald heb om iets moois neer te zetten, ik wel een hoop kennis over CSS heb opgedaan, waardoor ik het zeker vaker ga gebruiken. 
+
+Alleen liever nooit meer om iets in 3D te maken ;)
